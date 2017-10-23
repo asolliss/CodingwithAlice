@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<test id="1-en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <question text="What does the following code do?" code="def a(b, c, d): pass">
+        <answer correct="0" text="defines a list and initializes it"/>
+        <answer correct="1" text="defines a function and does nothing"/>
+        <answer correct="0" text="defines a functions and redirects to a link"/>
+        <answer correct="0" text="defines an empty class"/>
+    </question>
+    <question text="What output is going to be? Assuming that python version is 2.x" code="print type(1/2)">
+        <answer correct="1" text="&lt; type 'int' &gt;"/>
+        <answer correct="" text="&lt; type 'number' &gt;"/>
+        <answer correct="" text="&lt; type 'float '&gt;"/>
+        <answer correct="" text="&lt; type 'double' &gt;"/>
+    </question>
+    <question id="3" text="What will be printed?" code="x = 4.5; y = 2; print x//y">
+        <answer correct="1" text="2.0"/>
+        <answer correct="" text="2.25"/>
+        <answer correct="" text="9.0"/>
+        <answer correct="" text="20.25"/>
+    </question>
+    <question id="4" text="What does the following code do?" code="a = [ 1, 2, 3, None, (), [], ]; print len(a)">
+        <answer correct="" text="syntax error"/>
+        <answer correct="" text="4"/>
+        <answer correct="" text="5"/>
+        <answer correct="1" text="6"/>
+        <answer correct="" text="7"/>
+    </question>
+    <question id="5" text="What gets printed?" code="class Account: def __init__(self, id): self.id = id;
+                                                    id = 666; acc = Account(123); print acc.id">
+        <answer correct="" text="syntax error"/>
+        <answer correct="1" text="123"/>
+        <answer correct="" text="666"/>
+        <answer correct="" text="None"/>
+    </question>
+</test>

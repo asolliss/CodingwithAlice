@@ -1,0 +1,178 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-24 15:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ProgWithAlice/settings.py:58
+msgid "English"
+msgstr "Английский"
+
+#: ProgWithAlice/settings.py:59
+msgid "Russian"
+msgstr "Русский"
+
+#: main_app/templates/main_app/404.html:6
+msgid "Error"
+msgstr "Ошибка"
+
+#: main_app/templates/main_app/first_test.html:7
+#, fuzzy
+#| msgid "First test"
+msgid "First test"
+msgstr "Начальный тест"
+
+#: main_app/templates/main_app/first_test.html:26
+msgid "Lets check your knowledge"
+msgstr "Проверим твои знания"
+
+#: main_app/templates/main_app/index.html:19
+#: main_app/templates/main_app/index.html:29
+#: main_app/templates/main_app/registration.html:26
+msgid "Login"
+msgstr "Логин"
+
+#: main_app/templates/main_app/index.html:30
+#: main_app/templates/main_app/registration.html:28
+#: main_app/templates/main_app/registration.html:29
+msgid "Password"
+msgstr "Пароль"
+
+#: main_app/templates/main_app/index.html:31
+msgid "Log in"
+msgstr "Войти"
+
+#: main_app/templates/main_app/index.html:34
+#: main_app/templates/main_app/registration.html:31
+msgid "Sign up"
+msgstr "Регистрация"
+
+#: main_app/templates/main_app/lvl1.html:7
+#: main_app/templates/main_app/lvl2.html:8
+#: main_app/templates/main_app/lvl3.html:8
+#: main_app/templates/main_app/lvl4.html:8
+#: main_app/templates/main_app/lvl5.html:8
+msgid "Level"
+msgstr "Уровень"
+
+#: main_app/templates/main_app/lvl1.html:41
+msgid "Try"
+msgstr "Попробовать"
+
+#: main_app/templates/main_app/lvl1.html:55
+msgid "Got it"
+msgstr "Понятно"
+
+#: main_app/templates/main_app/lvl1.html:80
+#: main_app/templates/main_app/lvl1.html:120
+msgid "Execute"
+msgstr "Выполнить"
+
+#: main_app/templates/main_app/lvl1.html:83
+#: main_app/templates/main_app/lvl1.html:122
+msgid "Result"
+msgstr "Результат"
+
+#: main_app/templates/main_app/lvl1.html:99
+msgid "Ready"
+msgstr "Готов"
+
+#: main_app/templates/main_app/lvl1.html:132
+msgid "Next"
+msgstr "Далее"
+
+#: main_app/templates/main_app/map.html:7
+msgid "Level map"
+msgstr "Карта уровней"
+
+#: main_app/templates/main_app/my_page.html:27
+msgid "Continue studying"
+msgstr "Продолжить обучение"
+
+#: main_app/templates/main_app/my_page.html:34
+msgid "Your data"
+msgstr "Ваши данные"
+
+#: main_app/templates/main_app/my_page.html:48
+msgid "Your name"
+msgstr "Ваше имя"
+
+#: main_app/templates/main_app/my_page.html:60
+msgid "Your last name"
+msgstr "Ваша фамилия"
+
+#: main_app/templates/main_app/my_page.html:70
+msgid "Your login"
+msgstr "Ваш логин"
+
+#: main_app/templates/main_app/my_page.html:80
+msgid "Your email"
+msgstr "Ваша почта"
+
+#: main_app/templates/main_app/my_page.html:90
+msgid "Your phone"
+msgstr "Ваш телефон"
+
+#: main_app/templates/main_app/my_page.html:100
+msgid "Your level"
+msgstr "Ваш уровень"
+
+#: main_app/templates/main_app/my_page.html:108
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: main_app/templates/main_app/navbar.html:9
+msgid "Map"
+msgstr "Карта"
+
+#: main_app/templates/main_app/navbar.html:10
+msgid "My page"
+msgstr "Моя страница"
+
+#: main_app/templates/main_app/navbar.html:11
+msgid "Logout"
+msgstr "Выход"
+
+#: main_app/templates/main_app/registration.html:6
+msgid "Registration"
+msgstr "Регистрация"
+
+#: main_app/templates/main_app/registration.html:14
+msgid "First name"
+msgstr "Имя"
+
+#: main_app/templates/main_app/registration.html:15
+msgid "Last name"
+msgstr "Фамилия"
+
+#: main_app/templates/main_app/registration.html:17
+msgid "Male"
+msgstr "Мужской"
+
+#: main_app/templates/main_app/registration.html:18
+msgid "Female"
+msgstr "Женский"
+
+#: main_app/templates/main_app/registration.html:21
+msgid "Email"
+msgstr "Почта"
+
+#: main_app/templates/main_app/registration.html:22
+msgid "Phone"
+msgstr "Телефон"

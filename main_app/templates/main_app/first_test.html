@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html data-wf-domain="anns-first-site-eddd39-e9d348120a6d3717.webflow.io" data-wf-page="58413dafc5de377732c2635d"
+      data-wf-site="58413dafc5de377732c2635e" data-wf-status="1">
+<head>
+    <meta charset="utf-8">
+    {% load i18n %}
+    <title>{% trans 'First test' %}</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Webflow" name="generator">
+    <link href="https://daks2k3a4ib2z.cloudfront.net/58413dafc5de377732c2635e/css/anns-first-site-eddd39-e9d348120a6d3717.webflow.6c1abcaa5.css"
+          rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+    <script type="text/javascript">WebFont.load({
+        google: {
+            families: ["Marck Script:regular", "Arima Madurai:regular"]
+        }
+    });
+    </script>
+    {% load i18n %}
+    <script src="https://daks2k3a4ib2z.cloudfront.net/0globals/modernizr-2.7.1.js" type="text/javascript"></script>
+    <link href="https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
+</head>
+<body class="test-body">
+{% if error|length > 0 %}
+    <script>alert('{{ error }}');</script>
+{% endif %}
+<div class="w-container">
+    <div><h1 class="label-begin-know">{% trans 'Lets check your knowledge' %}</h1></div>
+</div>
+<div>
+    <div>
+        <ul class="list">
+
+            <div class="w-form">
+                <form class="test-form" data-name="Email Form" id="test-form" action="{% url 'check-first-test' %}"
+                      method="post">
+                    {% csrf_token %}
+                    {% for quest in test.get_questions %}
+                        <label class="question" for="name"> {{ forloop.counter }}. {{ quest.text }}</label>
+                        <h1 class="code-test-heading">{{ quest.code|linebreaks }}</h1>
+
+                        {% for ans in quest.get_answers %}
+                            <div class="w-clearfix w-radio">
+                                <input class="w-radio-input" data-name="group{{ quest.pk }}" id="radio-{{ ans.pk }}"
+                                       name="group{{ quest.pk }}" type="radio" value="{{ ans.pk }}">
+
+                                <label class="field-label w-form-label" for="radio-{{ ans.pk }}">
+                                    {{ ans.text }}</label>
+                            </div>
+                        {% endfor %}
+
+                    {% endfor %}
+                </form>
+            </div>
+        </ul>
+    </div>
+</div>
+
+{% if res|length == 0 %}
+    <div><a class="test-finish-button w-button" onclick="$('#test-form').submit();">Проверить</a></div>
+{% else %}
+    <div><a href="map.html" class="test-finish-button w-button">Далее</a></div>
+{% endif %}
+<h2>{{ res }}</h2>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+
+</body>
+</html>
+<!-- Localized -->

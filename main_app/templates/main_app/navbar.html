@@ -1,0 +1,17 @@
+
+
+{% load i18n %}
+<div class="navbar w-nav" data-animation="default" data-collapse="medium" data-duration="400">
+    <div class="navbar w-container"><a class="brand w-nav-brand" href="#"><h1 class="heading">
+        <span class="aa-coding"> A&amp;ACoding </span>
+    </h1></a>
+        <nav class="nav-menu w-nav-menu" role="navigation">
+            <a class="map-h1 w-nav-link" href="/map">{% trans 'Map' %}</a>
+            <a class="mypagelabel w-nav-link" href="/my_page">{% trans 'My page' %}</a>
+            <a class="exit-h1 w-nav-link" href="/logout">{% trans 'Logout' %}</a>
+        </nav>
+        <div class="w-nav-button">
+            <div class="w-icon-nav-menu"></div>
+        </div>
+    </div>
+</div>

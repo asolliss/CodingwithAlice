@@ -1,0 +1,47 @@
+body {
+    overflow: hidden;
+}
+
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 8%;
+    background-color: rgba(210, 143, 255, .32);
+    font-family: 'Marck Script', sans-serif;
+    font-size: 1.3em;
+    line-height: 2em;
+}
+
+.aa-coding {
+    background-color: transparent;
+    color: #77073d;
+    font-size: 1em;
+    line-height: 1px;
+}
+
+.navbar a {
+    color: #77073d;
+}
+
+.CodeMirror {
+    height: 50px;
+    max-height: 100px;
+    max-width: 70%;
+    margin-left: 10%;
+}
+
+#timer {
+    width: 40%;
+    height: 60%;
+    border: solid 7px #b66c98;
+    border-radius: 80px;
+    padding: 20px;
+    text-align: center;
+    font-size: 17pt;
+    font-family: 'Comic Sans MS';
+    font-weight: bold;
+    color: #711a4e;
+    padding-top: 60px;
+}
